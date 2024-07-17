@@ -1,0 +1,22 @@
+{
+  "name": "knowledgehook_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --workers=3",
+    "test-report": "npx playwright test --reporter=line,allure-playwright --workers=3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@butchmayhew/playwright-json-summary-reporter": "^1.1.1",
+    "@playwright/test": "^1.45.2",
+    "@types/node": "^20.14.10",
+    "allure-playwright": "^3.0.0-beta.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

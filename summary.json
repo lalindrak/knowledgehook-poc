@@ -1,0 +1,16 @@
+{
+  "durationInMS": 37508,
+  "passed": [
+    "teacher-flow-invalid-login/invalid-login.spec.ts:8:13",
+    "undefined:6:8",
+    "teacher-flow-logged-in/verify-basic-information.spec.ts:18:7",
+    "teacher-flow-logged-in/verify-basic-information.spec.ts:7:7",
+    "teacher-flow-logged-in/verify-class-creation.spec.ts:6:9"
+  ],
+  "skipped": [],
+  "failed": [],
+  "warned": [],
+  "timedOut": [],
+  "status": "passed",
+  "startedAt": 1721232437855
+}

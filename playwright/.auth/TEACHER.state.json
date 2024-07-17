@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "AWSALBCORS",
+      "value": "Sjexui1NYFdr6FdCtEPk9Gau8s8im9PeiozKBRdyg2P14elSLkB8RCmsjCwyqhdgBPDN94LMjeirLrTbZJHePgBTlM5nCifNKAh61wh9qMm0g2imtWJ4clt80JBV",
+      "domain": "widget-mediator.zopim.com",
+      "path": "/",
+      "expires": 1721837239.772524,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__zlcmid",
+      "value": "1MnmsKE2kS17UE6",
+      "domain": ".knowledgehook.com",
+      "path": "/",
+      "expires": 1752768440,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cf_ob_info",
+      "value": "522:8a4b7c0e9928ac42:YYZ",
+      "domain": "ma.knowledgehook.com",
+      "path": "/",
+      "expires": 1721232492.140132,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cf_use_ob",
+      "value": "443",
+      "domain": "ma.knowledgehook.com",
+      "path": "/",
+      "expires": 1721232492.140232,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.knowledgehook.com",
+      "localStorage": [
+        {
+          "name": "__zlcstore",
+          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1721232440127,\"account_status\":\"offline\"}}"
+        },
+        {
+          "name": "accessToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMTIzMjQ2MiwiZXhwIjoxNzI2NDE3MzYyLCJpYXQiOjE3MjEyMzI0NjIsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.MLMXw9yV4QRuszw1f7M8QlRTF10eUNUM27R92ehUo-w"
+        },
+        {
+          "name": "ZD-suid",
+          "value": "{\"id\":\"8a1defe5e92540ee9d5e47dd907268fb\",\"expiry\":1721233339509,\"tabs\":{\"count\":1,\"expiry\":0}}"
+        },
+        {
+          "name": "ZD-store",
+          "value": "{\"activeEmbed\":\"answerBot\",\"widgetShown\":false,\"is_chatting\":false}"
+        },
+        {
+          "name": "KH.AuthData",
+          "value": "{\"UserId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"Username\":\"lalindra.kawshika@gmai.com\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Teacher\"],\"Expiry\":\"2024-09-15T16:07:42.5362375+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMTIzMjQ2MiwiZXhwIjoxNzI2NDE3MzYyLCJpYXQiOjE3MjEyMzI0NjIsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.MLMXw9yV4QRuszw1f7M8QlRTF10eUNUM27R92ehUo-w\"}"
+        },
+        {
+          "name": "userClaims",
+          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-09-15T16:07:42.5362375+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Teacher\"],\"userId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"userName\":\"lalindra.kawshika@gmai.com\"}"
+        }
+      ]
+    }
+  ]
+}
