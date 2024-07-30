@@ -4,7 +4,7 @@ import teacherData from '../../src/data/teacher.test.data.json'
 
 
 test.describe('teacher and student can complete a live gameshow', async () => {
-    test.only('verify teacher and student can conduct the live gameshow and fuctionality is as expected',
+    test('verify teacher and student can conduct the live gameshow and fuctionality is as expected',
         async ({ myClassesPage, curriculumPage, gameShowTeacherPage, gameShowStudentPage }) => {
             await myClassesPage.goto('/')
             await myClassesPage.clickCreateClassButton()
