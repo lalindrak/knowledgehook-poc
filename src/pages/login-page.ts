@@ -12,6 +12,10 @@ export class LoginPage {
     readonly buttonLogin: Locator
     readonly teachersLounge: Locator
     readonly invalidLoginErrorMessage: Locator
+    readonly noClassCode: Locator
+    readonly studentUsername: Locator
+    readonly studentPassword: Locator
+    readonly studentLoginButton: Locator
 
     authFile = (key: string) => `${process.env.AUTH_FILE_PATH}/${key}.state.json`;
 
@@ -25,7 +29,11 @@ export class LoginPage {
         this.inputPassword = page.getByRole('textbox', { name: 'Password' })
         this.buttonLogin = page.getByRole('button', { name: 'Log in' })
         this.teachersLounge = page.locator('a').filter({ hasText: /^Teachers’ Lounge$/ })
-        this.invalidLoginErrorMessage=page.locator('.kh-small-text.kh-text-error')
+        this.invalidLoginErrorMessage = page.locator('.kh-small-text.kh-text-error')
+        this.noClassCode = page.getByText("I don't have a Class Code")
+        this.studentUsername = page.getByLabel('Enter Username')
+        this.studentPassword = page.getByLabel('Enter Password')
+        this.studentLoginButton = page.getByRole('button', { name: 'Enter' })
     }
     async goto(path: string) {
         await this.page.goto(path)
@@ -41,7 +49,15 @@ export class LoginPage {
         await this.inputPassword.fill(password)
         await this.buttonLogin.click()
     }
-    async loginAsTeacherAdminWrongUsername(username:string){
+
+    async loginAsStudent(username: string, password: string) {
+        await this.studentLogin.click()
+        await this.noClassCode.click()
+        await this.studentUsername.fill(username)
+        await this.studentPassword.fill(password)
+        await this.studentLoginButton.click()
+    }
+    async loginAsTeacherAdminWrongUsername(username: string) {
         await this.teacherAdminLogin.click()
         await this.inputUsername.fill(username)
         await this.buttonContinue.click()

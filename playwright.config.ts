@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
 
 /**
@@ -15,7 +15,8 @@ dotenv.config({ path: './env/.env' });
 export interface TestOptions {
   targetUser: IUserData;
 }
-
+//allure generate allure-results -o allure-report --clean
+//allure open allure-report
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -30,11 +31,12 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
+  timeout: 240000,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],
     ['@butchmayhew/playwright-json-summary-reporter'],
-    ["line"], [
+    ["line"], ['@estruyf/github-actions-reporter'], [
       "allure-playwright",
       {
         detail: true,
@@ -61,6 +63,15 @@ export default defineConfig({
     {
       name: 'Logged in Teacher Flow',
       testDir: './tests/teacher-flow-logged-in',
+      testMatch: '**/*.@(spec|test).?(c|m)[jt]s?(x)',
+      dependencies: ['setup'],
+      use: {
+        storageState: `${process.env.AUTH_FILE_PATH}/TEACHER.state.json`,
+      }
+    },
+    {
+      name: 'Student Gameshow flow',
+      testDir: './tests/student-gameshow-flow',
       testMatch: '**/*.@(spec|test).?(c|m)[jt]s?(x)',
       dependencies: ['setup'],
       use: {

@@ -17,6 +17,7 @@ test.describe('classroom components should be loaded properly', async () => {
 test.describe('Account settings should display correct information', async () => {
   test('verify account settings are loaded as expected', async ({ myClassesPage, accountSettingsPage }) => {
     await myClassesPage.goto('/')
+    await myClassesPage.waitPageLoad()
     await myClassesPage.clickProfileToggleButton()
     await myClassesPage.clickAccountSettings()
 

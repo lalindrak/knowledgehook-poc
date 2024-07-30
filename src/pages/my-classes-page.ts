@@ -21,6 +21,10 @@ export class MyClassesPage {
     readonly archiveClassOption: Locator
     readonly createdClass: Locator
     readonly yesOptionFromArchive: Locator
+    readonly tryGameShow: Locator
+    readonly studentNavBar: Locator
+    readonly gameShowPendingExitButton: Locator
+    readonly reportsHeading: Locator
 
     constructor(page: Page) {
         this.page = page
@@ -42,6 +46,10 @@ export class MyClassesPage {
         this.archiveClassOption = page.getByText('Archive Class')
         this.createdClass = page.locator('.class-box').locator('#ClassMgmtClassPremium')
         this.yesOptionFromArchive = page.getByRole('button', { name: 'Yes' })
+        this.tryGameShow = page.getByRole('cell', { name: 'Try a GameShow' })
+        this.studentNavBar = page.locator("[class='bottom-nav student-game-navbar']")
+        this.gameShowPendingExitButton = page.locator("[class='btn btn-lg btn-default spacer-md']")
+        this.reportsHeading = page.locator("h1").getByText('Reports')
 
     }
     async goto(path: string) {
@@ -75,5 +83,14 @@ export class MyClassesPage {
         await this.classSettingsButton.click()
         await this.archiveClassOption.click()
         await this.yesOptionFromArchive.click()
+    }
+    async clickTryGameShow() {
+        await this.tryGameShow.click()
+    }
+    async clickExitFromGameShowIfAlreadyPending() {
+        await this.page.waitForTimeout(8000)
+        if (await this.gameShowPendingExitButton.isVisible()) {
+            await this.gameShowPendingExitButton.click()
+        }
     }
 }

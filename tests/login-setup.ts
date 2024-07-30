@@ -17,3 +17,20 @@ setup.describe('Save auth state for teacher login', async () => {
     })
   });
 })
+
+setup.describe('Save auth state for student login', async () => {
+
+  setup('perform successful login as a student and save auth state', async ({ loginPage, myClassesPage }) => {
+    await setup.step('navigate to app and perform login', async () => {
+      await loginPage.goto('/app/login')
+      await loginPage.loginAsStudent(users.STUDENT.username, users.STUDENT.password)
+      await loginPage.waitPageLoad()
+      await myClassesPage.clickExitFromGameShowIfAlreadyPending()
+
+      await expect(myClassesPage.studentNavBar).toBeVisible({ timeout: 8000 })
+    })
+    await setup.step('save login state', async () => {
+      await loginPage.storeAuthStateForUser('STUDENT');
+    })
+  });
+})

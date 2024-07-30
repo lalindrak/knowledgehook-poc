@@ -1,5 +1,5 @@
 import { test, expect } from '../../src/fixtures/pages'
-import { users } from '../../src/config/users';
+
 
 test.describe('Invalid login attempts are handled successfully', async () => {
 
