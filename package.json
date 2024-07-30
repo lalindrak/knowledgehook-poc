@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --workers=3 --headed",
+    "test-headless": "npx playwright test --trace on --workers=3",
     "test-report": "npx playwright test --reporter=line,allure-playwright --workers=3"
   },
   "keywords": [],
