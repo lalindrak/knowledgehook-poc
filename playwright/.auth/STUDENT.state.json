@@ -1,41 +1,41 @@
 {
   "cookies": [
     {
+      "name": "_pk_id.2.fecb",
+      "value": "db820aa75d1f2509.1723221845.",
+      "domain": "app.knowledgehook.com",
+      "path": "/",
+      "expires": 1757177045,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_pk_ses.2.fecb",
+      "value": "1",
+      "domain": "app.knowledgehook.com",
+      "path": "/",
+      "expires": 1723223646,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "AWSALBCORS",
-      "value": "Y3njF9+4Wuxjsv7dSOccydvPLOkpzeeXfR9ynGwwFxGMKc+Mfcfxgxki1wQcvaDUEJUISgm+jLUR1VT7RWA6dMwgQRyi/xu/52tamNaJlLjqSciunU5XvJEgpCfb",
+      "value": "HFsiCjagBbHYGhrSPaVnvWG/rhdeT6TqzxH8XiJCxGQ+5lXR0ppjGtXnmhdgQzPi6mf7r3O1URr7EPEWw53Up7uq0kwmJgzj2K1iSEMmcuezYEZIUZ0FuTTV/5mi",
       "domain": "widget-mediator.zopim.com",
       "path": "/",
-      "expires": 1722948182.165838,
+      "expires": 1723826645.057322,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__zlcmid",
-      "value": "1N0muHUQp1i5ayJ",
+      "value": "1NAmvpNUtdMG7gc",
       "domain": ".knowledgehook.com",
       "path": "/",
-      "expires": 1753879382,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "cf_ob_info",
-      "value": "522:8ab56e985bbdaad9:YYZ",
-      "domain": "ma.knowledgehook.com",
-      "path": "/",
-      "expires": 1722343431.262488,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "cf_use_ob",
-      "value": "443",
-      "domain": "ma.knowledgehook.com",
-      "path": "/",
-      "expires": 1722343431.262536,
+      "expires": 1754757845,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -47,23 +47,23 @@
       "localStorage": [
         {
           "name": "KH.NavbarPopupsInfo",
-          "value": "{\"0fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\":{\"lastShowingDate\":1722312000000,\"totalShowingCount\":1}}"
+          "value": "{\"0fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\":{\"lastShowingDate\":1723176000000,\"totalShowingCount\":1}}"
         },
         {
           "name": "KH.AuthData",
-          "value": "{\"UserId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"Username\":\"SandaliPa\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Student\"],\"Expiry\":\"2024-09-28T12:43:21.8813055+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjIzNDM0MDEsImV4cCI6MTcyNzUyODMwMSwiaWF0IjoxNzIyMzQzNDAxLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.ggNHbtffJrwtrr1kBV32boVah-AAFP3k3tMP5l5P2q8\"}"
+          "value": "{\"UserId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"Username\":\"SandaliPa\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Student\"],\"Expiry\":\"2024-10-08T16:44:05.2229665+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjMyMjE4NDUsImV4cCI6MTcyODQwNjc0NSwiaWF0IjoxNzIzMjIxODQ1LCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.UIBZbLke6Tq6VaonE6_duMth-pEXe4Gv-_1ukDt19SU\"}"
         },
         {
           "name": "__zlcstore",
-          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1722343382384,\"account_status\":\"offline\"}}"
+          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1723221845323,\"account_status\":\"offline\"}}"
         },
         {
           "name": "accessToken",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjIzNDM0MDEsImV4cCI6MTcyNzUyODMwMSwiaWF0IjoxNzIyMzQzNDAxLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.ggNHbtffJrwtrr1kBV32boVah-AAFP3k3tMP5l5P2q8"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjMyMjE4NDUsImV4cCI6MTcyODQwNjc0NSwiaWF0IjoxNzIzMjIxODQ1LCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.UIBZbLke6Tq6VaonE6_duMth-pEXe4Gv-_1ukDt19SU"
         },
         {
           "name": "ZD-suid",
-          "value": "{\"id\":\"22d52b5d3fad4432bc3c4fd7f29b4f9e\",\"expiry\":1722344281921,\"tabs\":{\"count\":1,\"expiry\":0}}"
+          "value": "{\"id\":\"3a87849de98b4e73948b25983c2a4126\",\"expiry\":1723222744828,\"tabs\":{\"count\":1,\"expiry\":0}}"
         },
         {
           "name": "createdGameUserResult",
@@ -75,7 +75,7 @@
         },
         {
           "name": "userClaims",
-          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-09-28T12:43:21.8813055+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Student\"],\"userId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"userName\":\"SandaliPa\"}"
+          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-10-08T16:44:05.2229665+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Student\"],\"userId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"userName\":\"SandaliPa\"}"
         }
       ]
     }

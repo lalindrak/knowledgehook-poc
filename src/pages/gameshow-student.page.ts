@@ -71,6 +71,7 @@ export class GameShowStudentPage {
         await this.finishGameButton.click()
     }
     async rateGameShow() {
+        await this.page.waitForTimeout(1000)
         await this.iCanDoMyOwnButton.click()
         await this.doneButton.click()
     }

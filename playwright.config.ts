@@ -1,12 +1,12 @@
 import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
+import { Eyes } from '@applitools/eyes-playwright'
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// import dotenv from 'dotenv';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+
 require('dotenv').config();
 
 import { IUserData } from "./src/config/users";
@@ -15,8 +15,14 @@ dotenv.config({ path: './env/.env' });
 export interface TestOptions {
   targetUser: IUserData;
 }
+//Below two commands are needed to generate and open allure report
+
 //allure generate allure-results -o allure-report --clean
 //allure open allure-report
+
+//setting up the applitools eyes api key in the config globally
+const eyes = new Eyes();
+eyes.setApiKey(process.env.APPLITOOLS_API_KEY!);
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -72,6 +78,15 @@ export default defineConfig({
     {
       name: 'Student Gameshow flow',
       testDir: './tests/student-gameshow-flow',
+      testMatch: '**/*.@(spec|test).?(c|m)[jt]s?(x)',
+      dependencies: ['setup'],
+      use: {
+        storageState: `${process.env.AUTH_FILE_PATH}/TEACHER.state.json`,
+      }
+    },
+    {
+      name: 'Localization',
+      testDir: './tests/teacher-localization',
       testMatch: '**/*.@(spec|test).?(c|m)[jt]s?(x)',
       dependencies: ['setup'],
       use: {

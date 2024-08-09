@@ -1,0 +1,20 @@
+{
+    "en": {
+        "teacherLounge": "Teachers’ Lounge",
+        "exploreActivities": "Explore Activities",
+        "myClassroom": "My Classroom",
+        "createClassBanner": "Let's start by creating your class!"
+    },
+    "es": {
+        "teacherLounge": "Sala de docentes",
+        "exploreActivities": "Explorar las actividades",
+        "myClassroom": "Mi salón",
+        "createClassBanner": "¡Comencemos creando tu clase!"
+    },
+    "fr": {
+        "teacherLounge": "Salle des enseignants",
+        "exploreActivities": "Explorez les activités",
+        "myClassroom": "Ma classe",
+        "createClassBanner": "Commençons par créer votre classe!"
+    }
+}

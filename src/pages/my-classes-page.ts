@@ -25,6 +25,9 @@ export class MyClassesPage {
     readonly studentNavBar: Locator
     readonly gameShowPendingExitButton: Locator
     readonly reportsHeading: Locator
+    readonly teacherLoungeLoc: Locator
+    readonly accountSettingsLoc: Locator
+    readonly createClassBanner: Locator
 
     constructor(page: Page) {
         this.page = page
@@ -50,6 +53,9 @@ export class MyClassesPage {
         this.studentNavBar = page.locator("[class='bottom-nav student-game-navbar']")
         this.gameShowPendingExitButton = page.locator("[class='btn btn-lg btn-default spacer-md']")
         this.reportsHeading = page.locator("h1").getByText('Reports')
+        this.teacherLoungeLoc = page.locator("//span[@class='nav-item-label medium-title-text grey-accessible d-none d-default-block']")
+        this.accountSettingsLoc = page.locator("//kh-dropdown-menu-item[contains(@class,'first-account-menu-section')]").first()
+        this.createClassBanner = page.locator("[class='popover-content popover-body']")
 
     }
     async goto(path: string) {
@@ -78,6 +84,7 @@ export class MyClassesPage {
     }
     async clickKnowledgehookNavigationButton() {
         await this.knowledgehookNavigationButton.click()
+        await this.waitPageLoad()
     }
     async clickArchiveCreatedClass() {
         await this.classSettingsButton.click()
@@ -93,4 +100,11 @@ export class MyClassesPage {
             await this.gameShowPendingExitButton.click()
         }
     }
+    async textContent(selector: string) {
+        return await this.page.textContent(selector)
+    }
+    async clickAccountSettingsLoc() {
+        await this.accountSettingsLoc.click()
+    }
+    async 
 }
