@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --workers=3 --headed",
-    "test-new":"npx playwright test --workers=3 --grep-invert @localization",
+    "test-no-loc":"npx playwright test --workers=3 --grep-invert @localization",
     "test-headless": "npx playwright test --trace on --workers=3",
     "test-current": "npx playwright test --grep @current --workers=1"
   },

@@ -1,10 +1,20 @@
 {
-  "durationInMS": 58453,
-  "passed": [],
-  "skipped": [],
+  "durationInMS": 81448,
+  "passed": [
+    "teacher-flow-invalid-login/invalid-login.spec.ts:8:13",
+    "undefined:6:8",
+    "undefined:23:8",
+    "teacher-flow-logged-in/verify-basic-information.spec.ts:33:7",
+    "teacher-flow-logged-in/verify-class-creation.spec.ts:6:9",
+    "teacher-flow-logged-in/verify-basic-information.spec.ts:15:7",
+    "student-gameshow-flow/student-completes-gameshow.spec.ts:7:9"
+  ],
+  "skipped": [
+    "teacher-localization/teacher-loc.spec.ts:8:10"
+  ],
   "failed": [],
   "warned": [],
   "timedOut": [],
-  "status": "interrupted",
-  "startedAt": 1723310525813
+  "status": "passed",
+  "startedAt": 1723311023518
 }
