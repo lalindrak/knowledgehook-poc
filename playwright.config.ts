@@ -1,6 +1,5 @@
 import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
-import { Eyes } from '@applitools/eyes-playwright'
 
 /**
  * Read environment variables from file.

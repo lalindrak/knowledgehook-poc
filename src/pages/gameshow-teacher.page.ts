@@ -34,7 +34,7 @@ export class GameShowTeacherPage {
     async refreshPage() {
         await this.page.reload()
         await this.page.waitForLoadState('domcontentloaded')
-        await this.page.waitForTimeout(2000)
+        await this.page.waitForTimeout(5000)
     }
     async clickContinueGame() {
         await this.continuteButton.click({ force: true })
