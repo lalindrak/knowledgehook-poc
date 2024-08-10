@@ -20,6 +20,7 @@ export class GameShowStudentPage {
     readonly rateThisGame: Locator
     readonly iCanDoMyOwnButton: Locator
     readonly doneButton: Locator
+    readonly youAreInHeading: Locator
 
     constructor(page: Page) {
         this.page = page
@@ -41,6 +42,7 @@ export class GameShowStudentPage {
         this.rateThisGame = page.locator("h2").getByText('Rate this')
         this.iCanDoMyOwnButton = page.getByRole('row', { name: 'I can do this on my own!' }).getByRole('button')
         this.doneButton = page.getByRole('link', { name: 'Done' })
+        this.youAreInHeading = page.locator("[class='first-heading']")
     }
 
     async joinGameShowByClassCode(classcode: string) {
@@ -50,6 +52,11 @@ export class GameShowStudentPage {
         await this.joinClassButton.click()
         await this.page.waitForTimeout(1000)
         await this.joinGameShowButton.click({ force: true })
+        if (!(await this.youAreInHeading.isVisible())) {
+            await this.page.reload()
+            await this.joinGameShowButton.click({ force: true });
+        }
+        await this.page.waitForTimeout(2000)
     }
     async goto(path: string) {
         await this.page.goto(path)

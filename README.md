@@ -58,7 +58,8 @@ Video  https://drive.google.com/file/d/1T-ZVMlR-AaI1ArOSoJaYwQetMfSLjCzJ/view?us
 Video https://drive.google.com/file/d/191i_H5fG42Tg5KZQYAn7__Ofccr5mT7K/view?usp=sharing
 
 `tests/teacher-flow-logged-in/verify-basic-information.spec.ts`
-Video 
+
+Video https://drive.google.com/file/d/1dIDUXfwaOmbvI9DcgZbXz7NXOc7Ozjg2/view?usp=sharing
 
 
 ------------

@@ -4,7 +4,7 @@ import teacherData from '../../src/data/teacher.test.data.json'
 
 
 test.describe('teacher and student can complete a live gameshow', async () => {
-    test('verify teacher and student can conduct the live gameshow and fuctionality is as expected',
+    test.only('verify teacher and student can conduct the live gameshow and fuctionality is as expected',
         async ({ myClassesPage, curriculumPage, gameShowTeacherPage, gameShowStudentPage }) => {
             await myClassesPage.goto('/')
             await myClassesPage.clickCreateClassButton()
@@ -20,7 +20,7 @@ test.describe('teacher and student can complete a live gameshow', async () => {
             await expect(gameShowTeacherPage.teacherGameShowLogo).toBeVisible()
 
             await gameShowTeacherPage.clickInviteStudents()
-            let classCode = await gameShowTeacherPage.classCode.innerText()
+            const classCode = await gameShowTeacherPage.classCode.innerText()
 
             await gameShowStudentPage.goto('/')
             await gameShowStudentPage.joinGameShowByClassCode(classCode)

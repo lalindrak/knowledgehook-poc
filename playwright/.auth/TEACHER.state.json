@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "_pk_id.2.fecb",
-      "value": "efe320e189e4b8f4.1723221843.",
+      "value": "e4c2f226fee2bf72.1723307383.",
       "domain": "app.knowledgehook.com",
       "path": "/",
-      "expires": 1757177043,
+      "expires": 1757262583,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,27 +15,27 @@
       "value": "1",
       "domain": "app.knowledgehook.com",
       "path": "/",
-      "expires": 1723223644,
+      "expires": 1723309184,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBCORS",
-      "value": "r/LpF6/GyH4NAjwDEA1WH36vKMAUPLvYbbwKQGW1aX2V2bhCuMEUm7A6SVLNZCLnny16blRYztCewevvZDD/oHmdbD2INe+sKLtG/wA4DehMwTI63pZGiMmeQKBc",
+      "value": "+PWY6vPe0QvpXHrsBWTjGcOCXIZuPnd4CGMO/eglVbGaX2UWJVsx9rMrEHOhPF1ViFo3gkYqzM1elyvH178CZaGVPpuKOnj9WauypxrfQFbQA6/RgeFNHFEMFdPE",
       "domain": "widget-mediator.zopim.com",
       "path": "/",
-      "expires": 1723826643.504655,
+      "expires": 1723912183.405457,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__zlcmid",
-      "value": "1NAmvpNUF4Z5uAz",
+      "value": "1NBmvyiNukuLrtz",
       "domain": ".knowledgehook.com",
       "path": "/",
-      "expires": 1754757843,
+      "expires": 1754843383,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -47,15 +47,15 @@
       "localStorage": [
         {
           "name": "__zlcstore",
-          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1723221843739,\"account_status\":\"offline\"}}"
+          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1723307383675,\"account_status\":\"offline\"}}"
         },
         {
           "name": "accessToken",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMzIyMTg0MywiZXhwIjoxNzI4NDA2NzQzLCJpYXQiOjE3MjMyMjE4NDMsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.X96NQUfP7V8LiwRb59NhyrdDJPCzIueh0vrVR3yppvU"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMzMwNzM4MywiZXhwIjoxNzI4NDkyMjgzLCJpYXQiOjE3MjMzMDczODMsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.toX9Uxp-mgRKKSYsUWpu9wgeGlIJOrkTq0RFo_Qqmvs"
         },
         {
           "name": "ZD-suid",
-          "value": "{\"id\":\"8a80ff25612c477c874ad0e8181a68f0\",\"expiry\":1723222743259,\"tabs\":{\"count\":1,\"expiry\":0}}"
+          "value": "{\"id\":\"9b98c0af9c1b44e4a7207be70d01e4f6\",\"expiry\":1723308283148,\"tabs\":{\"count\":1,\"expiry\":0}}"
         },
         {
           "name": "ZD-store",
@@ -63,11 +63,11 @@
         },
         {
           "name": "KH.AuthData",
-          "value": "{\"UserId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"Username\":\"lalindra.kawshika@gmai.com\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Teacher\"],\"Expiry\":\"2024-10-08T16:44:03.6623197+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMzIyMTg0MywiZXhwIjoxNzI4NDA2NzQzLCJpYXQiOjE3MjMyMjE4NDMsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.X96NQUfP7V8LiwRb59NhyrdDJPCzIueh0vrVR3yppvU\"}"
+          "value": "{\"UserId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"Username\":\"lalindra.kawshika@gmai.com\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Teacher\"],\"Expiry\":\"2024-10-09T16:29:43.5267772+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImxhbGluZHJhLmthd3NoaWthQGdtYWkuY29tIiwibmFtZWlkIjoiNzc2OGJhNjYtMGM4OC00M2E0LWI4YTItYjUxZDZjNWIzOTk0IiwiYXV0aG1ldGhvZCI6IksiLCJyb2xlIjoiVGVhY2hlciIsIm5iZiI6MTcyMzMwNzM4MywiZXhwIjoxNzI4NDkyMjgzLCJpYXQiOjE3MjMzMDczODMsImlzcyI6IndlYi1iYWNrLWVuZCIsImF1ZCI6IndlYi1mcm9udC1lbmQifQ.toX9Uxp-mgRKKSYsUWpu9wgeGlIJOrkTq0RFo_Qqmvs\"}"
         },
         {
           "name": "userClaims",
-          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-10-08T16:44:03.6623197+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Teacher\"],\"userId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"userName\":\"lalindra.kawshika@gmai.com\"}"
+          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-10-09T16:29:43.5267772+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Teacher\"],\"userId\":\"7768ba66-0c88-43a4-b8a2-b51d6c5b3994\",\"userName\":\"lalindra.kawshika@gmai.com\"}"
         }
       ]
     }

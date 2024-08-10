@@ -20,10 +20,6 @@ export interface TestOptions {
 //allure generate allure-results -o allure-report --clean
 //allure open allure-report
 
-//setting up the applitools eyes api key in the config globally
-const eyes = new Eyes();
-eyes.setApiKey(process.env.APPLITOOLS_API_KEY!);
-
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
@@ -37,7 +33,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  timeout: 240000,
+  timeout: 150000,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],

@@ -1,14 +1,12 @@
 {
-  "durationInMS": 18091,
+  "durationInMS": 63950,
   "passed": [
-    "undefined:6:8",
-    "undefined:23:8",
-    "teacher-flow-logged-in/verify-basic-information.spec.ts:10:7"
+    "student-gameshow-flow/student-completes-gameshow.spec.ts:7:10"
   ],
   "skipped": [],
   "failed": [],
   "warned": [],
   "timedOut": [],
   "status": "passed",
-  "startedAt": 1723221839633
+  "startedAt": 1723307677854
 }

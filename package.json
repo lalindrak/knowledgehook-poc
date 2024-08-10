@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test --workers=3 --headed",
+    "test-new":"npx playwright test --workers=3 --grep-invert @localization",
     "test-headless": "npx playwright test --trace on --workers=3",
     "test-current": "npx playwright test --grep @current --workers=1"
   },
@@ -13,9 +14,13 @@
   "license": "ISC",
   "devDependencies": {
     "@butchmayhew/playwright-json-summary-reporter": "^1.1.1",
+    "@eslint/js": "^9.9.0",
     "@playwright/test": "^1.45.2",
     "@types/node": "^20.14.10",
-    "allure-playwright": "^3.0.0-beta.6"
+    "allure-playwright": "^3.0.0-beta.6",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.1"
   },
   "dependencies": {
     "@applitools/eyes-playwright": "^1.28.3",
