@@ -50,10 +50,12 @@ export class GameShowStudentPage {
         await this.joinClassMenuItem.click()
         await this.joinClassIdTextBox.fill(classcode)
         await this.joinClassButton.click()
-        await this.page.waitForTimeout(1000)
         await this.joinGameShowButton.click({ force: true })
-        if (!(await this.youAreInHeading.isVisible())) {
-            await this.page.reload()
+        await this.page.waitForTimeout(3000)
+        const pageUrl = this.page.url()
+        if (pageUrl.includes('home')) {
+            await this.page.locator("[label='Solve']").click()
+            await this.page.locator("[label='Main']").click()
             await this.joinGameShowButton.click({ force: true });
         }
         await this.page.waitForTimeout(2000)
