@@ -19,9 +19,10 @@ jobs:
         run: npm ci
       - name: Install playwright browsers
         run: yarn playwright install --with-deps
-      - name: Run tests
-        run: npx playwright test --workers=3 --grep-invert @localization --trace on 
-        run: npx playwright test --workers=3 --grep @localization --trace on 
+        - name: Run tests
+        run: |
+          npx playwright test --workers=3 --grep-invert @localization --trace on
+          npx playwright test --workers=3 --grep @localization --trace on
         #headed mode: xvfb-run npx playwright test 
 
       - name: Read Summary Report to Get Test Results
