@@ -35,7 +35,7 @@ export default defineConfig({
   timeout: 150000,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html'],
+    ['html'],['blob'],
     ['@butchmayhew/playwright-json-summary-reporter'],
     ["line"], ['@estruyf/github-actions-reporter'], [
       "allure-playwright",

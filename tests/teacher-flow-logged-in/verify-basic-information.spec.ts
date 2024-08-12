@@ -6,7 +6,7 @@ const projectName = 'Knowledgehook POC'
 
 
 test.beforeAll(async () => {
-  //setting up the applitools eyes api key in the config globally
+  //setting up the applitools eyes api key
   const eyes = new Eyes();
   eyes.setApiKey(process.env.APPLITOOLS_API_KEY!);
 })
@@ -20,12 +20,6 @@ test.describe('classroom components should be loaded properly', async () => {
     await expect(myClassesPage.exploreActivites).toBeVisible()
     await expect(myClassesPage.myClassroom).toBeVisible()
     await expect(myClassesPage.createClassButton).toBeVisible()
-
-    //checking the my classes page for visual AI assertions commented as the api key is not working right now
-    const eyes = new Eyes();
-    await eyes.open(myClassesPage.page, projectName, test.name);
-    await eyes.check('My classes page', Target.window().fully());
-    await eyes.close();
   });
 })
 
@@ -39,5 +33,10 @@ test.describe('Account settings should display correct information', async () =>
     await expect(accountSettingsPage.displayName).toHaveText(teacherData.name)
     await expect(accountSettingsPage.email).toHaveText(users.TEACHER.username)
     await expect(accountSettingsPage.mySchoolName).toHaveText(teacherData.school)
+
+    const eyes = new Eyes();
+    await eyes.open(myClassesPage.page, projectName, test.name);
+    await eyes.check('My classes page', Target.window().fully());
+    await eyes.close();
   });
 })

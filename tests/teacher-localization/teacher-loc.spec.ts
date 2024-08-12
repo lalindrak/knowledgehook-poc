@@ -1,11 +1,8 @@
 import { test, expect } from '../../src/fixtures/pages'
 import localizationData from '../../src/data/localization.data.json'
 
-
-
-
 test.describe('localization tests for teacher welcome page', async () => {
-    test.skip('verify localization is working as expected for teacher home page @localization', async ({ myClassesPage, accountSettingsPage }) => {
+    test('verify localization is working as expected for teacher home page @localization', async ({ myClassesPage, accountSettingsPage }) => {
         await myClassesPage.goto('/')
 
         for (const [lang, textFeilds] of Object.entries(localizationData)) {

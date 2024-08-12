@@ -105,6 +105,5 @@ export class MyClassesPage {
     }
     async clickAccountSettingsLoc() {
         await this.accountSettingsLoc.click()
-    }
-    async 
+    } 
 }
