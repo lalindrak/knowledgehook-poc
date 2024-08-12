@@ -1,5 +1,5 @@
 {
-  "durationInMS": 26582,
+  "durationInMS": 24785,
   "passed": [
     "undefined:6:8",
     "undefined:23:8",
@@ -10,5 +10,5 @@
   "warned": [],
   "timedOut": [],
   "status": "passed",
-  "startedAt": 1723480238138
+  "startedAt": 1723486156728
 }

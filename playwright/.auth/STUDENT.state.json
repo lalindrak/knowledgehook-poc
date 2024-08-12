@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "_pk_id.2.fecb",
-      "value": "e16cc9028907c902.1723480243.",
+      "value": "d5c1b4fc22e6e37b.1723486161.",
       "domain": "app.knowledgehook.com",
       "path": "/",
-      "expires": 1757435443,
+      "expires": 1757441361,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,27 +15,27 @@
       "value": "1",
       "domain": "app.knowledgehook.com",
       "path": "/",
-      "expires": 1723482044,
+      "expires": 1723487962,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBCORS",
-      "value": "A1STKnkTfLJZ3+CheMIL7j398bF5Sy2hsRf8K3oPgrzoa3FlOS0OIwqzD377J1FTUtvlni25kNGWeq9jIP/+j59v3rkVYYYR8Zd/AjveSWmGfJq3ia+lmEJSkcTk",
+      "value": "PowMlvjIvxxhVPGz7zX3nAiu2PvJ6isjE4Got+gnh3ZilifCTkHLA7cXhoQFaotKp5uOmyaTKmbWmgt5TK733RczJwvqaiNuSeCSGytUZxGQ4p1Ntikjpax3f+e/",
       "domain": "widget-mediator.zopim.com",
       "path": "/",
-      "expires": 1724085043.66608,
+      "expires": 1724090961.320428,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "__zlcmid",
-      "value": "1NDmwHaELZwFWUe",
+      "value": "1NDmwIEHK3JHXir",
       "domain": ".knowledgehook.com",
       "path": "/",
-      "expires": 1755016243,
+      "expires": 1755022161,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -51,19 +51,19 @@
         },
         {
           "name": "KH.AuthData",
-          "value": "{\"UserId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"Username\":\"SandaliPa\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Student\"],\"Expiry\":\"2024-10-11T16:30:43.828242+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjM0ODAyNDMsImV4cCI6MTcyODY2NTE0MywiaWF0IjoxNzIzNDgwMjQzLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.bP5ifpPaOduhDYES4kXV6uJHBQfEKzET5DqL52V8iTY\"}"
+          "value": "{\"UserId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"Username\":\"SandaliPa\",\"LocaleId\":\"en-CA\",\"IsTransient\":false,\"Roles\":[\"Student\"],\"Expiry\":\"2024-10-11T18:09:21.7521387+00:00\",\"AuthMethod\":\"Knowledgehook\",\"Token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjM0ODYxNjEsImV4cCI6MTcyODY3MTA2MSwiaWF0IjoxNzIzNDg2MTYxLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.oSoZxpsvWThZSkTdDKokz2uJcAH3ttmCuwirUsYzKz8\"}"
         },
         {
           "name": "__zlcstore",
-          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1723480243952,\"account_status\":\"offline\"}}"
+          "value": "{\"Q81qgkQruQSQH7Rd0DXeQAix7og0sfP9\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1723486161635,\"account_status\":\"offline\"}}"
         },
         {
           "name": "accessToken",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjM0ODAyNDMsImV4cCI6MTcyODY2NTE0MywiaWF0IjoxNzIzNDgwMjQzLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.bP5ifpPaOduhDYES4kXV6uJHBQfEKzET5DqL52V8iTY"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlNhbmRhbGlQYSIsIm5hbWVpZCI6ImZiNWZiOGYzLWFjYjYtNGIyOC1hY2Y2LTllMWYxYWRjM2U5YSIsImF1dGhtZXRob2QiOiJLIiwicm9sZSI6IlN0dWRlbnQiLCJuYmYiOjE3MjM0ODYxNjEsImV4cCI6MTcyODY3MTA2MSwiaWF0IjoxNzIzNDg2MTYxLCJpc3MiOiJ3ZWItYmFjay1lbmQiLCJhdWQiOiJ3ZWItZnJvbnQtZW5kIn0.oSoZxpsvWThZSkTdDKokz2uJcAH3ttmCuwirUsYzKz8"
         },
         {
           "name": "ZD-suid",
-          "value": "{\"id\":\"6c7e8e6e14644cc1a21ea9ad2105964a\",\"expiry\":1723481143436,\"tabs\":{\"count\":1,\"expiry\":0}}"
+          "value": "{\"id\":\"c525cd3323f04506a684a97c800ce911\",\"expiry\":1723487061086,\"tabs\":{\"count\":1,\"expiry\":0}}"
         },
         {
           "name": "createdGameUserResult",
@@ -75,7 +75,7 @@
         },
         {
           "name": "userClaims",
-          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-10-11T16:30:43.828242+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Student\"],\"userId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"userName\":\"SandaliPa\"}"
+          "value": "{\"authMethod\":\"Knowledgehook\",\"expiry\":\"2024-10-11T18:09:21.7521387+00:00\",\"isTransient\":false,\"localeId\":\"en-CA\",\"roles\":[\"Student\"],\"userId\":\"fb5fb8f3-acb6-4b28-acf6-9e1f1adc3e9a\",\"userName\":\"SandaliPa\"}"
         }
       ]
     }
