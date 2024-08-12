@@ -20,7 +20,7 @@ jobs:
       - name: Install playwright browsers
         run: yarn playwright install --with-deps
       - name: Run tests
-        run: npm run test-headless
+        run: npx playwright test --grep-invert @localization --workers=3 && node updateBlob.js 1 && npx playwright test --grep @localization --workers=1 && node updateBlob.js 2 && npx playwright merge-reports ./all-blob-reports --reporter=html
         #headed mode: xvfb-run npx playwright test 
 
       - name: Read Summary Report to Get Test Results
@@ -61,6 +61,8 @@ jobs:
         with:
             name: allure-report
             path: allure-report/
+            name: playwright-report
+            path: playwright-report/
             retention-days: 30
 
       # - name: Deploy report to Github Pages
