@@ -20,6 +20,14 @@ jobs:
       - name: Install playwright browsers
         run: yarn playwright install --with-deps
       - name: Run tests
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          TEACHER_USERNAME: ${{ secrets.TEACHER_USERNAME }}
+          TEACHER_PASSWORD: ${{ secrets.TEACHER_PASSWORD }}
+          STUDENT_USERNAME: ${{ secrets.STUDENT_USERNAME }}
+          STUDENT_PASSWORD: ${{ secrets.STUDENT_PASSWORD }}
+          AUTH_FILE_PATH: ${{ secrets.AUTH_FILE_PATH }}
+          APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
         run: npx playwright test --grep-invert @localization --workers=3 && node updateBlob.js 1 && npx playwright test --grep @localization --workers=1 && node updateBlob.js 2 && npx playwright merge-reports ./all-blob-reports --reporter=html
         #headed mode: xvfb-run npx playwright test 
 
