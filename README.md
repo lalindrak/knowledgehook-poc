@@ -9,7 +9,7 @@
 ## Project Setup
 
 - Node must be installed
-- Clone the repository, you can use the same information in the .env file or you can replace the teacher and student usernames and passwords with yours.
+- Clone the repository, you can use the same information in the .env file or you can replace the teacher and student usernames and passwords with yours. (I can send the actual credentials too)
 
 ```yaml
 BASE_URL=https://app.knowledgehook.com/app
