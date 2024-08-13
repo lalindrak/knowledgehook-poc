@@ -6,7 +6,7 @@ export class GameShowTeacherPage {
     readonly teacherGameShowLogo: Locator
     readonly inviteStudentsButton: Locator
     readonly classCode: Locator
-    //locators for live gameshow 
+    //locators for live gameshow
     readonly playButton: Locator
     readonly continuteButton: Locator
     readonly nextQuestion: Locator
