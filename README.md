@@ -1,10 +1,10 @@
 # Knowledgehook POC
 
-###### Project is using a single session to execute all tests. Login setup is run for a teacher and student just one time for the whole test suite making the test execution faster and efficient.
-###### Using Page Object models for structuring the framework making it faster to automate tests when number of tests are growing and making it easier to maintain as selectors are grouped by their pages(locations).
-###### Data is passed through .env files and json files making it faster to read and making tests data driven according to the scenario(running localization tests for multiple languages in a single test).
-###### Integrated with Github Actions and publishing reports to gihub pages, integrating with communication media (Slack,Teams) for faster feedback and generating github actions reports for real time insights.
-###### Integrated with applitools AI assertions to verify and identify DOM content changes and snapshots easier and smarter.
+##### Project is using a single session to execute all tests. Login setup is run for a teacher and student just one time for the whole test suite making the test execution faster and efficient.
+##### Using Page Object models for structuring the framework making it faster to automate tests when number of tests are growing and making it easier to maintain as selectors are grouped by their pages(locations).
+##### Data is passed through .env files and json files making it faster to read and making tests data driven according to the scenario(running localization tests for multiple languages in a single test).
+##### Integrated with Github Actions and publishing reports to gihub pages, integrating with communication media (Slack,Teams) for faster feedback and generating github actions reports for real time insights.
+##### Integrated with applitools AI assertions to verify and identify DOM content changes and snapshots easier and smarter.
 
 ## Project Setup
 
@@ -37,11 +37,11 @@ APPLITOOLS_API_KEY=applitools_api_key
 
 Out of the 10 tests, below shows three of the most interesting test scenarios I have automated in the POC
 
-1. `tests/student-gameshow-flow/student-completes-gameshow.spec.ts`- Teacher and student completes a collaborative game show
+1. [tests/student-gameshow-flow/student-completes-gameshow.spec.ts](tests/student-gameshow-flow/student-completes-gameshow.spec.ts) - Teacher and student completes a collaborative game show
    
-2. `tests/teacher-localization/teacher-loc.spec.ts` - Localization for en, fr and es for teacher's welcome page. Testing all three languages with a single test using a data driven approach
+2. [tests/teacher-localization/teacher-loc.spec.ts](tests/teacher-localization/teacher-loc.spec.ts) - Localization for en, fr and es for teacher's welcome page. Testing all three languages with a single test using a data driven approach
    
-3. `tests/teacher-flow-logged-in/verify-basic-information.spec.ts` - Using appli tools visual AI assertions to verify DOM content and snapshots for easier and faster defect finding
+3. [tests/teacher-flow-logged-in/verify-basic-information.spec.ts](tests/teacher-flow-logged-in/verify-basic-information.spec.ts) - Using appli tools visual AI assertions to verify DOM content and snapshots for easier and faster defect finding
 
 ------------
 
