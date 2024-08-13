@@ -8,4 +8,4 @@ allure-results/
 playwright/
 blob-report/
 all-blob-reports/
-env/.env
+.env
