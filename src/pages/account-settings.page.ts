@@ -3,6 +3,7 @@ import { Locator, Page } from "@playwright/test";
 export class AccountSettingsPage {
 
     readonly page: Page
+    //locators for account settings page
     readonly displayName: Locator
     readonly email: Locator
     readonly mySchoolName: Locator
@@ -11,6 +12,7 @@ export class AccountSettingsPage {
 
     constructor(page: Page) {
         this.page = page
+        //initializing locators for the Account Settings elements
         this.displayName = page.locator('[class="settings-section-container"]').first().locator('div').nth(4)
         this.email = page.locator('.col-lg-6.col-md-5.col-sm-12.d-flex.align-items-center.preserve-line-breaks.ellipsis').nth(3)
         this.mySchoolName = page.locator('[class="settings-section-container"]').nth(1).locator('div').nth(6)

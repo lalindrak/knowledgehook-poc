@@ -2,9 +2,11 @@ import { Locator, Page } from "@playwright/test";
 
 export class GameShowTeacherPage {
     readonly page: Page
+    //locators for gameshow teacher page
     readonly teacherGameShowLogo: Locator
     readonly inviteStudentsButton: Locator
     readonly classCode: Locator
+    //locators for live gameshow 
     readonly playButton: Locator
     readonly continuteButton: Locator
     readonly nextQuestion: Locator

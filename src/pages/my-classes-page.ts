@@ -3,6 +3,7 @@ import { Locator, Page } from "@playwright/test";
 export class MyClassesPage {
 
     readonly page: Page
+    //locators for my classes page
     readonly teachersLounge: Locator
     readonly exploreActivites: Locator
     readonly myClassroom: Locator
@@ -25,9 +26,11 @@ export class MyClassesPage {
     readonly studentNavBar: Locator
     readonly gameShowPendingExitButton: Locator
     readonly reportsHeading: Locator
+    readonly createClassBanner: Locator
+    //locators for localization 
     readonly teacherLoungeLoc: Locator
     readonly accountSettingsLoc: Locator
-    readonly createClassBanner: Locator
+
 
     constructor(page: Page) {
         this.page = page

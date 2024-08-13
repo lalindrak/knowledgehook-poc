@@ -3,20 +3,21 @@ import { Locator, Page } from "@playwright/test";
 export class LoginPage {
 
     readonly page: Page
-    readonly studentLogin: Locator
+    //locators for login page - teacher 
     readonly teacherAdminLogin: Locator
     readonly parentLogin: Locator
     readonly inputUsername: Locator
     readonly buttonContinue: Locator
     readonly inputPassword: Locator
     readonly buttonLogin: Locator
-    readonly teachersLounge: Locator
     readonly invalidLoginErrorMessage: Locator
+    //locators for login page -student
+    readonly studentLogin: Locator
     readonly noClassCode: Locator
     readonly studentUsername: Locator
     readonly studentPassword: Locator
     readonly studentLoginButton: Locator
-
+    //path to auth file to save the login state
     authFile = (key: string) => `${process.env.AUTH_FILE_PATH}/${key}.state.json`;
 
     constructor(page: Page) {
@@ -28,7 +29,6 @@ export class LoginPage {
         this.buttonContinue = page.getByRole('button', { name: 'Continue' })
         this.inputPassword = page.getByRole('textbox', { name: 'Password' })
         this.buttonLogin = page.getByRole('button', { name: 'Log in' })
-        this.teachersLounge = page.locator('a').filter({ hasText: /^Teachers’ Lounge$/ })
         this.invalidLoginErrorMessage = page.locator('.kh-small-text.kh-text-error')
         this.noClassCode = page.getByText("I don't have a Class Code")
         this.studentUsername = page.getByLabel('Enter Username')

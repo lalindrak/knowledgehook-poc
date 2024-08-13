@@ -2,12 +2,14 @@ import { Locator, Page } from "@playwright/test";
 
 export class CurriculumPage {
     readonly page: Page
+    //locators for curriculum page
     readonly activityName: Locator
     readonly question: Locator
     readonly playGameShowButton: Locator
 
     constructor(page: Page) {
         this.page = page
+        //initializing locators for the curriculum page elements
         this.activityName = page.locator('[class="card-title branch-group-title"]')
         this.question = page.locator('kh-activity-box-content')
         this.playGameShowButton = page.locator('a').filter({ hasText: 'Play GameShowLive group' })
